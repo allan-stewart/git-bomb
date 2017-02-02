@@ -1,0 +1,19 @@
+{
+  "name": "git-bomb",
+  "version": "1.0.0",
+  "description": "A utility to run `git reset --HARD` on a timer",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Allan Stewart",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "electron": "^1.4.15"
+  }
+}
