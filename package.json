@@ -1,7 +1,7 @@
 {
   "name": "git-bomb",
   "version": "1.0.0",
-  "description": "A utility to run `git reset --HARD` on a timer",
+  "description": "An Electron-based utility to run `git reset --HARD` on a timer",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
