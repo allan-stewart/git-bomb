@@ -22,11 +22,11 @@ describe('git', () => {
   describe('resetHard', () => {
     let dir = '~/fake-dir'
 
-    it('should call git reset --HARD on that directory', done => {
+    it('should call git reset --hard on that directory', done => {
       setupResult(null, 'HEAD is now at fd66683 empty test file\n', '')
       git.resetHard(dir, (success, message) => {
         assert.deepEqual(executedCommands, [
-          {dir, command: 'git reset --HARD'}
+          {dir, command: 'git reset --hard'}
         ])
         done()
       })

@@ -4,7 +4,7 @@ class Git {
   }
 
   resetHard(dir, callback) {
-    this.executor(dir, 'git reset --HARD', (err, stdout, stderr) => {
+    this.executor(dir, 'git reset --hard', (err, stdout, stderr) => {
       let wasSuccessful = !err
       let message = wasSuccessful ? stdout : getErrorMessage(err, stderr)
       callback(wasSuccessful, message)
