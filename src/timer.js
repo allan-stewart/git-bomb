@@ -4,7 +4,8 @@ class Timer {
     this.callback = callback
   }
 
-  start() {
+  start(value) {
+    this.time = value
     if (!this.interval) {
       this.interval = setInterval(() => {
         this.time--
