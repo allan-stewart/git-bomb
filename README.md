@@ -8,7 +8,7 @@ on a specified directory every X minutes.
 Why would anyone ever want to do this?
 Adding this constraint to your development flow may help you
 think in smaller units and make atomic commits.
-Instead of thinking about "losing work", consider it a way to
+Instead of thinking about "losing work," consider it a way to
 experiment with code until you get something really good.
 What you've learned is more important than specific lines of code,
 and sometimes you can write better code faster after the reset.
