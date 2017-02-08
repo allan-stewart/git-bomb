@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Git Bomb</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div id="pick-dir" class="pick-dir">
+      <button id="pick-dir-button" class="button">Pick a directory</button>
+    </div>
+
+    <div id="select-minutes" class="select-minutes hidden">
+      <input type="number" id="minutes" min="1" class="minutes" value="5" /> minutes
+      <button id="start-button" class="button spaced">Start</button>
+    </div>
+
+    <div id="timer" class="timer hidden">00:00</div>
+
+    <div id="info" class="info hidden">?</div>
+
+    <script type="text/javascript">
+      require('./index.js')
+    </script>
+  </body>
+</html>

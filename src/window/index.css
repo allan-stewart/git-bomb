@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-app-region: drag;
+  user-select: none;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.pick-dir {
+  padding-top: 14px;
+}
+
+.select-minutes {
+  padding-top: 14px;
+}
+
+.minutes {
+  width: 40px;
+  -webkit-app-region: no-drag;
+}
+
+.button {
+  background-color: #a00;
+  border-radius:3px;
+  border-style: none;
+  border: 1px solid #300;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  -webkit-app-region: no-drag;
+}
+
+.button:hover {
+  background-color: #b00;
+}
+
+.button:active {
+  background-color: #400;
+  color: #c00;
+}
+
+.spaced {
+  margin-left: 15px;
+}
+
+.timer {
+  color: #f00;
+  font-weight: bold;
+  font-size: 32px;
+  padding-top: 6px;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 180px;
+  height: 30px;
+  padding: 10px;
+  font-family: monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  z-index: 10;
+  background-color: #333;
+}
+
+.error {
+  background-color: #ffc;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
