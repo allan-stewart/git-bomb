@@ -16,3 +16,7 @@ and sometimes you can write better code faster after the reset.
 Running `git reset --hard` every X minutes is sometimes used
 during Global Day of Code Retreat exercises.
 Give it a try with a code kata!
+
+## License
+
+This code is provided under the under the [MIT license](LICENSE)
