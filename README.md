@@ -1,4 +1,4 @@
-# git-bomb
+# ![Bomb icon](bomb.png) git-bomb
 
 An electron-based application which will run `git reset --hard`
 on a specified directory every X minutes.
