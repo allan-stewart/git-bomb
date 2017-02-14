@@ -27,9 +27,11 @@ run the appropriate build for your platform:
 
 The output will be found in the `/dist` directory.
 
-## Icon Credit
+## Credits
 
 The icon used for git-bomb was created by [Everaldo Coelho](http://www.everaldo.com) and obtained from [Icon Easy](http://www.iconeasy.com/icon/app-core-bomb-icon/) under a "Free for non-commercial use" license.
+
+The alarm clock font used for the timer was created by [David J Patterson](http://www.dafont.com/david-j-patterson.d5686) and obtained from (dafont.com)[http://www.dafont.com/alarm-clock.font] under a "100% Free" license.
 
 ## License
 

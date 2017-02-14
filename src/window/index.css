@@ -46,10 +46,15 @@ body {
   margin-left: 15px;
 }
 
+@font-face {
+  font-family: 'alarm clock';
+  src: url("./alarm clock.ttf");
+}
+
 .timer {
   color: #f00;
-  font-weight: bold;
-  font-size: 32px;
+  font-family: 'alarm clock', sans-serif;
+  font-size: 36px;
   padding-top: 6px;
 }
 
