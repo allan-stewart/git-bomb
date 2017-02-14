@@ -17,6 +17,20 @@ Running `git reset --hard` every X minutes is sometimes used
 during Global Day of Code Retreat exercises.
 Give it a try with a code kata!
 
+## Build It
+
+To build the git-bomb application, run `npm install` and then
+run the appropriate build for your platform:
+
+* `npm run build-win`
+* `npm run build-mac`
+
+The output will be found in the `/dist` directory.
+
+## Icon Credit
+
+The icon used for git-bomb was created by [Everaldo Coelho](http://www.everaldo.com) and obtained from [Icon Easy](http://www.iconeasy.com/icon/app-core-bomb-icon/) under a "Free for non-commercial use" license.
+
 ## License
 
 This code is provided under the under the [MIT license](LICENSE)

@@ -5,7 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "test": "mocha -w"
+    "test": "mocha -w",
+    "build-win": "electron-packager . --platform=win32 --arch=x64 --out=dist --icon=bomb --overwrite",
+    "build-mac": "electron-packager . --platform=darwin --arch=x64 --out=dist --icon=bomb --overwrite"
   },
   "keywords": [
     "git"
@@ -15,6 +17,7 @@
   "private": true,
   "devDependencies": {
     "electron": "^1.4.15",
+    "electron-packager": "^8.5.1",
     "mocha": "^3.2.0"
   }
 }
